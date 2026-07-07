@@ -120,7 +120,7 @@ https://github.com/mr-latif717/Employee-Management-System
 
 ## Live Website
 
-https://YourUsername.github.io/Employee-Management-System/
+not yed deployed
 
 ---
 
