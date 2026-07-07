@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee List</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+        <h2>Allied Software Engineers</h2>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="register.html">Register Employee</a></li>
+          <li><a href="employees.html" class="active">Employees</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section style="padding: 30px">
+      <h2 style="text-align: center">Employee List</h2>
+
+      <br />
+
+      <input type="text" id="search" placeholder="Search Employee by Name" />
+
+      <br /><br />
+
+      <select id="filter">
+        <option value="All">All Departments</option>
+
+        <option value="HR">HR</option>
+
+        <option value="IT">IT</option>
+
+        <option value="Finance">Finance</option>
+
+        <option value="Marketing">Marketing</option>
+      </select>
+    </section>
+
+    <div class="employee-container" id="employeeContainer"></div>
+
+    <footer>
+      <p>&copy; 2026 Allied Software Engineers</p>
+    </footer>
+
+    <script src="js/employees.js"></script>
+  </body>
+</html>
