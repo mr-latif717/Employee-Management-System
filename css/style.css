@@ -205,8 +205,37 @@ button:hover {
 .employee-card:hover {
   transform: scale(1.03);
 }
-
-/* Responsive Design */
+/* ###### Dark Mode ####### */
+.dark-mode{
+    background-color: #222;
+    color: white;
+}
+.dark-mode header,
+.dark-mode footer{
+    background-color: #111;
+}
+.dark-mode .card
+{
+    background-color: #333;
+    color: white;
+}
+.dark-mode .card h2
+{
+    background-color: #333;
+    color: white;
+}
+.dark-mode .hero
+{
+    background-color: #333;
+    color: white;
+}
+.dark-mode .hero h1,
+.dark-mode .hero p
+{
+    background-color: #333;
+    color: white;
+}
+/*  ###### Responsive Design ########*/
 
 @media (max-width: 768px) {
   header {
